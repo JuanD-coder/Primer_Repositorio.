@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title >Hello, GitHub!</title>
+  </head>
+  <body>
+    <h1 class="text-center mt-5 display-4 text-primary">
+       <a href="Index.html">&larr;</a> Variables de JavaScript
+       </h1>
+    
+    <h4> Type string: <i id="type-string"></i></h4>
+    <h4> Type number: <i id="type-number"></i></h4>
+    <h4> Type Boolean: <i id="type-boolean"></i></h4>
+    
+    <script>
+
+        //ID de elemnto
+        var tstring = document.getElementById('type-string');
+        var num1 = document.getElementById('type-number');
+        var boolean = document.getElementById('type-boolean');
+
+        //Variables
+         const string1 ="Moviles 2451009";
+         const number_1 =2451009;
+         var bool = (5==5);
+
+         tstring.innerText= string1;
+         num1.innerText=number_1;
+         boolean.innerText=bool;
+
+         console.log(string1);
+         console.log(number_1);
+
+    </script>
+
+    
+  </body>
+</html>
